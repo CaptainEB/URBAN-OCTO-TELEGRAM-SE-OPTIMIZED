@@ -1,6 +1,6 @@
 # Sam Ebadi Sobi
 
-## Website live URL: [Search Engine Optimization]()
+## Website live URL: [Search Engine Optimization](https://captaineb.github.io/URBAN-OCTO-TELEGRAM-SE-OPTIMIZED/)
 
 Changed the index.html file to meet the acceptance criteria:
 1. Added alt tags to all images.
