@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* This changes the background color of the whole page */
 body {
     background-color: #d9dcd6;
 }
-
+/* This gives the header some styling and sets the font family */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This section styles the navigation bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +40,16 @@ nav {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* All anchor elements will have the following style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* This sets the font size for all paragraph text elements */
 p {
     font-size: 16px;
 }
-
+/* .hero is the class associated with the main image of the website below the header and it will follow the styles below */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Each of the 3 topics on the page have an image associated with them and this sets the image location */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* .content is associated with the main section of the page and it follows these styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This styles the right section of the page about benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,56 +85,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* The following tags style the specific elemets of the benefits section */
+.benefit-lead,.benefit-brand,.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* This styles the headings of the benefits section */
+.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* This styles the images in the benefits section */
+.benefit-lead img,.benefit-brand img,.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* This styles the main section text */
+.search-engine-optimization,.online-reputation-management,.social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,52 +111,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* This styles the images in the main section topics */
+.search-engine-optimization img,.social-media-marketing img,.online-reputation-management img  {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* This styles the heading of the main section topics */
+.search-engine-optimization h2,.online-reputation-management h2,.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This styles the footer */
 .footer {
     padding: 30px;
     clear: both;
