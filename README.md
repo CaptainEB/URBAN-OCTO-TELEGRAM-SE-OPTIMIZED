@@ -12,3 +12,5 @@ Changed the website files to meet the acceptance criteria:
 ![Screenshot](./assets/images/screenshot.png)
 ---
 ![Screenshot2](./assets/images/screenshot2.png)
+
+The starter code was provided by the bootcamp and all changes were made by Sam Ebadi Sobi.
